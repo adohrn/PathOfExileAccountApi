@@ -1,0 +1,26 @@
+{
+  "name": "poeapi",
+  "version": "1.0.0",
+  "description": "Simple Api that returns Path of Exile trade information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "pathofexile",
+    "poe",
+    "api",
+    "node"
+  ],
+  "author": "Alex Dohrn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
